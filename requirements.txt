@@ -46,8 +46,3 @@ jupyter-client==8.6.3
 jupyter-core==5.8.1
 notebook>=7.0.0
 rich==14.1.0
-
-# === Optional: Local Models ===
-lv_spacy_cnn==1.0.0
-lv_roberta_base==1.0.0
-lv_roberta_large==1.0.0

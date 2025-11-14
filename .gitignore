@@ -3,28 +3,34 @@ Experiment/Baseline_spaCy_CNN/train_100/models
 Experiment/Baseline_spaCy_CNN/train_50/models
 Experiment/Baseline_spaCy_CNN/train_20/models
 Experiment/Baseline_spaCy_CNN/train_5/models
+Experiment/Baseline_spaCy_CNN/train_1/models
 Experiment/Baseline_spaCy_CNN/train_100/packages
 Experiment/Baseline_spaCy_CNN/train_50/packages
 Experiment/Baseline_spaCy_CNN/train_20/packages
 Experiment/Baseline_spaCy_CNN/train_5/packages
+Experiment/Baseline_spaCy_CNN/train_1/packages
 
 Experiment/XLM_R_Base/train_100/models
 Experiment/XLM_R_Base/train_50/models
 Experiment/XLM_R_Base/train_20/models
 Experiment/XLM_R_Base/train_5/models
+Experiment/XLM_R_Base/train_1/models
 Experiment/XLM_R_Base/train_100/packages
 Experiment/XLM_R_Base/train_50/packages
 Experiment/XLM_R_Base/train_20/packages
 Experiment/XLM_R_Base/train_5/packages
+Experiment/XLM_R_Base/train_1/packages
 
 Experiment/XLM_R_Large/train_100/models
 Experiment/XLM_R_Large/train_50/models
 Experiment/XLM_R_Large/train_20/models
 Experiment/XLM_R_Large/train_5/models
+Experiment/XLM_R_Large/train_1/models
 Experiment/XLM_R_Large/train_100/packages
 Experiment/XLM_R_Large/train_50/packages
 Experiment/XLM_R_Large/train_20/packages
 Experiment/XLM_R_Large/train_5/packages
+Experiment/XLM_R_Large/train_1/packages
 
 # 其他临时文件
 *.pyc

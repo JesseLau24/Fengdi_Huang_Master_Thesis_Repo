@@ -48,7 +48,7 @@ Original **CONLL-U** files from **UD Latvian LVTB v2.17**, used as the raw datas
 
 ---
 
-## 📘 Project Overview (Thesis Context)
+## Project Overview (Thesis Context)
 
 This repository supports a Master’s thesis with the following goals:
 - Compare **spaCy CNN** vs. **XLM-R Transformers**  

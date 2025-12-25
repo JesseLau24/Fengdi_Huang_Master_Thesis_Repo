@@ -1,6 +1,9 @@
 # Master Thesis Repository — Fengdi Huang (231AHG003)
 
-This repository contains all datasets, configurations, trained models, and evaluation summaries used in my Master’s thesis.  
+This repository contains all datasets, configurations, trained models, and evaluation summaries used in my Master’s thesis:
+
+**Cross-Lingual Transfer Learning for Low-Resource NLP: A Fine-Tuning Study on Latvian**  
+
 The thesis investigates how **CNN (spaCy)** and **multilingual Transformer models (XLM-R Base & XLM-R Large)** perform under **low-resource** and **reduced-data** conditions, using **Latvian LVTB v2.17** as the experimental dataset.
 
 ---

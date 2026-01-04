@@ -1,12 +1,32 @@
 # Master Thesis Repository — Fengdi Huang (231AHG003)
 
-This repository contains all datasets, configurations, trained models, and evaluation summaries used in my Master’s thesis:
+This repository contains all datasets, configurations, and evaluation summaries used in my Master’s thesis:
 
 **Cross-Lingual Transfer Learning for Low-Resource NLP: A Fine-Tuning Study on Latvian**  
 
 The thesis investigates how **CNN (spaCy)** and **multilingual Transformer models (XLM-R Base & XLM-R Large)** perform under **low-resource** and **reduced-data** conditions, using **Latvian LVTB v2.17** as the experimental dataset.
 
 ---
+All trained models are uploaded to HuggingFace
+
+| Model name           | Architecture | Base model    | Training data | Hugging Face link                                                                                                      |
+| -------------------- | ------------ | ------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| lv_xlmr_large_100pct | Transformer  | XLM-R-large   | 100% UD LVTB  | [https://huggingface.co/JesseHuang922/lv_xlmr_large_100pct](https://huggingface.co/JesseHuang922/lv_xlmr_large_100pct) |
+| lv_xlmr_large_50pct  | Transformer  | XLM-R-large   | 50% UD LVTB   | [https://huggingface.co/JesseHuang922/lv_xlmr_large_50pct](https://huggingface.co/JesseHuang922/lv_xlmr_large_50pct)   |
+| lv_xlmr_large_20pct  | Transformer  | XLM-R-large   | 20% UD LVTB   | [https://huggingface.co/JesseHuang922/lv_xlmr_large_20pct](https://huggingface.co/JesseHuang922/lv_xlmr_large_20pct)   |
+| lv_xlmr_large_5pct   | Transformer  | XLM-R-large   | 5% UD LVTB    | [https://huggingface.co/JesseHuang922/lv_xlmr_large_5pct](https://huggingface.co/JesseHuang922/lv_xlmr_large_5pct)     |
+| lv_xlmr_large_1pct   | Transformer  | XLM-R-large   | 1% UD LVTB    | [https://huggingface.co/JesseHuang922/lv_xlmr_large_1pct](https://huggingface.co/JesseHuang922/lv_xlmr_large_1pct)     |
+| lv_xlmr_base_100pct  | Transformer  | XLM-R-base    | 100% UD LVTB  | [https://huggingface.co/JesseHuang922/lv_xlmr_base_100pct](https://huggingface.co/JesseHuang922/lv_xlmr_base_100pct)   |
+| lv_xlmr_base_50pct   | Transformer  | XLM-R-base    | 50% UD LVTB   | [https://huggingface.co/JesseHuang922/lv_xlmr_base_50pct](https://huggingface.co/JesseHuang922/lv_xlmr_base_50pct)     |
+| lv_xlmr_base_20pct   | Transformer  | XLM-R-base    | 20% UD LVTB   | [https://huggingface.co/JesseHuang922/lv_xlmr_base_20pct](https://huggingface.co/JesseHuang922/lv_xlmr_base_20pct)     |
+| lv_xlmr_base_5pct    | Transformer  | XLM-R-base    | 5% UD LVTB    | [https://huggingface.co/JesseHuang922/lv_xlmr_base_5pct](https://huggingface.co/JesseHuang922/lv_xlmr_base_5pct)       |
+| lv_xlmr_base_1pct    | Transformer  | XLM-R-base    | 1% UD LVTB    | [https://huggingface.co/JesseHuang922/lv_xlmr_base_1pct](https://huggingface.co/JesseHuang922/lv_xlmr_base_1pct)       |
+| lv_spacy_cnn_100pct  | CNN          | spaCy Tok2Vec | 100% UD LVTB  | [https://huggingface.co/JesseHuang922/lv_spacy_cnn_100pct](https://huggingface.co/JesseHuang922/lv_spacy_cnn_100pct)   |
+| lv_spacy_cnn_50pct   | CNN          | spaCy Tok2Vec | 50% UD LVTB   | [https://huggingface.co/JesseHuang922/lv_spacy_cnn_50pct](https://huggingface.co/JesseHuang922/lv_spacy_cnn_50pct)     |
+| lv_spacy_cnn_20pct   | CNN          | spaCy Tok2Vec | 20% UD LVTB   | [https://huggingface.co/JesseHuang922/lv_spacy_cnn_20pct](https://huggingface.co/JesseHuang922/lv_spacy_cnn_20pct)     |
+| lv_spacy_cnn_5pct    | CNN          | spaCy Tok2Vec | 5% UD LVTB    | [https://huggingface.co/JesseHuang922/lv_spacy_cnn_5pct](https://huggingface.co/JesseHuang922/lv_spacy_cnn_5pct)       |
+| lv_spacy_cnn_1pct    | CNN          | spaCy Tok2Vec | 1% UD LVTB    | [https://huggingface.co/JesseHuang922/lv_spacy_cnn_1pct](https://huggingface.co/JesseHuang922/lv_spacy_cnn_1pct)       |
+
 
 ## Repository Structure
 
